@@ -7,8 +7,8 @@
   "publishedAt": "2026-06-18T00:00:00Z",
   "releasePage": "https://github.com/KiddPhenix/Ctrl_CC-Releases/releases/tag/v0.1.1",
   "notes": {
-    "en": "Adds update checking, appearance theme selection, a redesigned Todo execution view, capture reliability fixes, and macOS capture support fixes.",
-    "zh-CN": "新增更新检测、外观主题选择，优化 Todo 执行视图，并修复抓取稳定性和 macOS 抓取支持。"
+    "en": "Adds update checking, appearance theme selection, a redesigned Todo execution view, capture reliability fixes, and unsigned macOS test builds. During testing I have not bought an Apple Developer account yet because the budget is still crying quietly, so macOS may ask you to right-click and choose Open.",
+    "zh-CN": "新增更新检测、外观主题选择，优化 Todo 执行视图，修复抓取稳定性，并加入未签名 macOS 测试包。测试期间还没有购买 Apple 开发者账户，因为预算还在默默哭穷，所以 macOS 可能需要右键选择“打开”。"
   },
   "changelog": {
     "en": [
@@ -18,7 +18,9 @@
       "Refined capture notifications and item actions.",
       "Added a Windows clipboard fallback for more reliable global capture.",
       "Fixed macOS capture support and AI-generated tag language handling.",
-      "Improved onboarding/home wording, starter data localization, and branding copy."
+      "Improved onboarding/home wording, starter data localization, and branding copy.",
+      "Added unsigned macOS DMG builds for Apple Silicon and Intel Macs.",
+      "Documented the testing-period signing status: no Apple Developer account yet, budget currently crying quietly."
     ],
     "zh-CN": [
       "新增基于公开发布元数据的内置更新检测。",
@@ -27,7 +29,9 @@
       "优化抓取通知和条目操作。",
       "增加 Windows 剪贴板兜底，提高全局抓取稳定性。",
       "修复 macOS 抓取支持和 AI 生成标签的语言归属。",
-      "优化首页引导词、初始数据本地化和品牌文案。"
+      "优化首页引导词、初始数据本地化和品牌文案。",
+      "新增 Apple Silicon 和 Intel Mac 的未签名 macOS DMG 测试包。",
+      "写明测试期签名状态：暂未购买 Apple 开发者账户，预算目前正在默默哭穷。"
     ]
   },
   "platforms": {
@@ -36,6 +40,18 @@
       "file": "Ctrl_CC-0.1.1-windows-x64.zip",
       "url": "https://github.com/KiddPhenix/Ctrl_CC-Releases/releases/download/v0.1.1/Ctrl_CC-0.1.1-windows-x64.zip",
       "sha256": "293dad67d1961102f77c5f35d3c17a21d6c306d59ba20e52e78cdf621aa0604d"
+    },
+    "macos-arm64": {
+      "kind": "dmg",
+      "file": "Ctrl_CC-0.1.1-macos-arm64.dmg",
+      "url": "https://github.com/KiddPhenix/Ctrl_CC-Releases/releases/download/v0.1.1/Ctrl_CC-0.1.1-macos-arm64.dmg",
+      "sha256": "bc6687ec0692fa5c631b5efb0165f28e23f2c3edf59a8c5f9c16cf0c1a29b7d6"
+    },
+    "macos-x64": {
+      "kind": "dmg",
+      "file": "Ctrl_CC-0.1.1-macos-x64.dmg",
+      "url": "https://github.com/KiddPhenix/Ctrl_CC-Releases/releases/download/v0.1.1/Ctrl_CC-0.1.1-macos-x64.dmg",
+      "sha256": "95a1cb5034f84e6668fa832fa6bbda244a3f0319b9a3550dea6ae441bed03276"
     }
   }
 }
