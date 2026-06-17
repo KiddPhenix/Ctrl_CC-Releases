@@ -1,0 +1,33 @@
+{
+  "schema": 1,
+  "product": "Ctrl_CC",
+  "version": "0.1.0",
+  "tag": "v0.1.0",
+  "channel": "stable",
+  "publishedAt": "2026-06-17T00:00:00Z",
+  "releasePage": "https://github.com/KiddPhenix/Ctrl_CC-Releases/releases/tag/v0.1.0",
+  "notes": {
+    "en": "Initial public binary release.",
+    "zh-CN": "首个公开二进制发布版本。"
+  },
+  "platforms": {
+    "windows-x64": {
+      "kind": "zip",
+      "file": "Ctrl_CC-0.1.0-windows-x64.zip",
+      "url": "https://github.com/KiddPhenix/Ctrl_CC-Releases/releases/download/v0.1.0/Ctrl_CC-0.1.0-windows-x64.zip",
+      "sha256": ""
+    },
+    "macos-arm64": {
+      "kind": "dmg",
+      "file": "Ctrl_CC-0.1.0-macos-arm64.dmg",
+      "url": "https://github.com/KiddPhenix/Ctrl_CC-Releases/releases/download/v0.1.0/Ctrl_CC-0.1.0-macos-arm64.dmg",
+      "sha256": ""
+    },
+    "macos-x64": {
+      "kind": "dmg",
+      "file": "Ctrl_CC-0.1.0-macos-x64.dmg",
+      "url": "https://github.com/KiddPhenix/Ctrl_CC-Releases/releases/download/v0.1.0/Ctrl_CC-0.1.0-macos-x64.dmg",
+      "sha256": ""
+    }
+  }
+}
