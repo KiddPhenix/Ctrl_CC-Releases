@@ -11,8 +11,8 @@ https://github.com/KiddPhenix/Ctrl_CC-Releases/releases/latest
 Choose the file for your system:
 
 - Windows x64: `Ctrl_CC-<version>-windows-x64.zip`
-- macOS Apple Silicon: `Ctrl_CC-<version>-macos-arm64.dmg`
-- macOS Intel: `Ctrl_CC-<version>-macos-x64.dmg`
+- macOS Apple Silicon, when available: `Ctrl_CC-<version>-macos-arm64.dmg`
+- macOS Intel, when available: `Ctrl_CC-<version>-macos-x64.dmg`
 
 Older versions are available from:
 
@@ -85,8 +85,8 @@ https://github.com/KiddPhenix/Ctrl_CC-Releases/releases/latest
 按系统选择文件：
 
 - Windows x64：`Ctrl_CC-<version>-windows-x64.zip`
-- macOS Apple Silicon：`Ctrl_CC-<version>-macos-arm64.dmg`
-- macOS Intel：`Ctrl_CC-<version>-macos-x64.dmg`
+- macOS Apple Silicon，如该版本提供：`Ctrl_CC-<version>-macos-arm64.dmg`
+- macOS Intel，如该版本提供：`Ctrl_CC-<version>-macos-x64.dmg`
 
 历史版本在这里：
 

@@ -18,19 +18,7 @@
         "kind": "zip",
         "file": "Ctrl_CC-0.1.0-windows-x64.zip",
         "url": "https://github.com/KiddPhenix/Ctrl_CC-Releases/releases/download/v0.1.0/Ctrl_CC-0.1.0-windows-x64.zip",
-        "sha256": ""
-      },
-      "macos-arm64": {
-        "kind": "dmg",
-        "file": "Ctrl_CC-0.1.0-macos-arm64.dmg",
-        "url": "https://github.com/KiddPhenix/Ctrl_CC-Releases/releases/download/v0.1.0/Ctrl_CC-0.1.0-macos-arm64.dmg",
-        "sha256": ""
-      },
-      "macos-x64": {
-        "kind": "dmg",
-        "file": "Ctrl_CC-0.1.0-macos-x64.dmg",
-        "url": "https://github.com/KiddPhenix/Ctrl_CC-Releases/releases/download/v0.1.0/Ctrl_CC-0.1.0-macos-x64.dmg",
-        "sha256": ""
+        "sha256": "53d92062e6d325445d76560d853bd5d0e52298983750b2a49561b3052f531737"
       }
     }
   }
