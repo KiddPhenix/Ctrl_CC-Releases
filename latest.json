@@ -10,8 +10,22 @@
     "mandatory": false,
     "releasePage": "https://github.com/KiddPhenix/Ctrl_CC-Releases/releases/tag/v0.1.1",
     "notes": {
-      "en": "Windows x64 binary release.",
-      "zh-CN": "Windows x64 二进制发布版本。"
+      "en": "Windows x64 binary release. App, MCP initialize, MCP runtime status, and footer version strings were updated to 0.1.1.",
+      "zh-CN": "Windows x64 二进制发布版本。App、MCP initialize、MCP runtime status 和界面 footer 版本号已同步到 0.1.1。"
+    },
+    "changelog": {
+      "en": [
+        "Published the Windows x64 binary package for Ctrl_CC 0.1.1.",
+        "Updated app, MCP initialize, MCP runtime status, and visible footer version strings to 0.1.1.",
+        "Verified the packaged Windows CLI reports runtime version 0.1.1.",
+        "Updated public latest-version metadata to point to v0.1.1."
+      ],
+      "zh-CN": [
+        "发布 Ctrl_CC 0.1.1 的 Windows x64 二进制包。",
+        "将 App、MCP initialize、MCP runtime status 和界面 footer 版本号同步到 0.1.1。",
+        "已验证 Windows 打包版 CLI 返回运行时版本 0.1.1。",
+        "已更新公开最新版本元数据，使更新检测指向 v0.1.1。"
+      ]
     },
     "platforms": {
       "windows-x64": {

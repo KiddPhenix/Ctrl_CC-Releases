@@ -18,6 +18,10 @@ Older versions are available from:
 
 https://github.com/KiddPhenix/Ctrl_CC-Releases/releases
 
+Release history:
+
+[CHANGELOG.md](CHANGELOG.md)
+
 ### Windows
 
 1. Download the Windows zip file from Releases.
@@ -91,6 +95,10 @@ https://github.com/KiddPhenix/Ctrl_CC-Releases/releases/latest
 历史版本在这里：
 
 https://github.com/KiddPhenix/Ctrl_CC-Releases/releases
+
+版本历史：
+
+[CHANGELOG.md](CHANGELOG.md)
 
 ### Windows
 
