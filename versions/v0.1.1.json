@@ -7,21 +7,27 @@
   "publishedAt": "2026-06-18T00:00:00Z",
   "releasePage": "https://github.com/KiddPhenix/Ctrl_CC-Releases/releases/tag/v0.1.1",
   "notes": {
-    "en": "Windows x64 binary release. App, MCP initialize, MCP runtime status, and footer version strings were updated to 0.1.1.",
-    "zh-CN": "Windows x64 二进制发布版本。App、MCP initialize、MCP runtime status 和界面 footer 版本号已同步到 0.1.1。"
+    "en": "Adds update checking, appearance theme selection, a redesigned Todo execution view, capture reliability fixes, and macOS capture support fixes.",
+    "zh-CN": "新增更新检测、外观主题选择，优化 Todo 执行视图，并修复抓取稳定性和 macOS 抓取支持。"
   },
   "changelog": {
     "en": [
-      "Published the Windows x64 binary package for Ctrl_CC 0.1.1.",
-      "Updated app, MCP initialize, MCP runtime status, and visible footer version strings to 0.1.1.",
-      "Verified the packaged Windows CLI reports runtime version 0.1.1.",
-      "Updated public latest-version metadata to point to v0.1.1."
+      "Added built-in update checking from the public release metadata.",
+      "Added System, Light, and Dark appearance modes.",
+      "Redesigned the Todo detail view around execution, editing, next steps, and completion criteria.",
+      "Refined capture notifications and item actions.",
+      "Added a Windows clipboard fallback for more reliable global capture.",
+      "Fixed macOS capture support and AI-generated tag language handling.",
+      "Improved onboarding/home wording, starter data localization, and branding copy."
     ],
     "zh-CN": [
-      "发布 Ctrl_CC 0.1.1 的 Windows x64 二进制包。",
-      "将 App、MCP initialize、MCP runtime status 和界面 footer 版本号同步到 0.1.1。",
-      "已验证 Windows 打包版 CLI 返回运行时版本 0.1.1。",
-      "已更新公开最新版本元数据，使更新检测指向 v0.1.1。"
+      "新增基于公开发布元数据的内置更新检测。",
+      "增加跟随系统、浅色模式和深色模式。",
+      "围绕执行、编辑、下一步和完成标准优化 Todo 详情视图。",
+      "优化抓取通知和条目操作。",
+      "增加 Windows 剪贴板兜底，提高全局抓取稳定性。",
+      "修复 macOS 抓取支持和 AI 生成标签的语言归属。",
+      "优化首页引导词、初始数据本地化和品牌文案。"
     ]
   },
   "platforms": {

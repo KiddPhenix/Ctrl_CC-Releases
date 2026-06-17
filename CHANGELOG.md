@@ -4,17 +4,45 @@
 
 ### English
 
-- Published the Windows x64 binary package for Ctrl_CC 0.1.1.
-- Updated app, MCP initialize, MCP runtime status, and visible footer version strings to `0.1.1`.
-- Verified the packaged Windows CLI reports runtime version `0.1.1`.
-- Updated the public latest-version metadata to point to `v0.1.1`.
+### Features
+
+- Added built-in update checking from the public release metadata, with an in-app entry that opens the latest GitHub Release when a newer version is available.
+- Added an appearance setting with System, Light, and Dark modes.
+- Added the new public release metadata and packaging path used by future update checks.
+
+### Improvements
+
+- Redesigned the Todo detail view around execution: editable notes, due date, priority, tags, goal, next steps, completion criteria, and source text are easier to scan and act on.
+- Refined capture notifications and item actions so captured content flows more clearly into Knowledge and Todo.
+- Improved onboarding/home wording, starter data localization, and app branding copy.
+
+### Fixes
+
+- Added a Windows clipboard fallback for more reliable global capture.
+- Fixed macOS capture support and bundled the macOS key server build path.
+- Fixed AI-generated tag language handling so tags better match the captured note language.
+- Restored title-bar dragging behavior around the brand area.
 
 ### 中文
 
-- 发布 Ctrl_CC `0.1.1` 的 Windows x64 二进制包。
-- 将 App、MCP initialize、MCP runtime status 和界面 footer 版本号同步到 `0.1.1`。
-- 已验证 Windows 打包版 CLI 返回运行时版本 `0.1.1`。
-- 已更新公开最新版本元数据，使更新检测指向 `v0.1.1`。
+### 功能
+
+- 增加内置更新检测：从公开发布元数据读取最新版本，发现新版时可在应用内打开对应 GitHub Release。
+- 增加外观设置，支持跟随系统、浅色模式和深色模式。
+- 建立公开发布元数据和打包发布路径，为后续版本检测和下载入口打基础。
+
+### 调整
+
+- 优化 Todo 详情执行视图，备注、截止时间、优先级、标签、目标、下一步、完成标准和原始来源更容易查看和处理。
+- 优化抓取通知和条目操作，让抓取内容进入 Knowledge / Todo 的过程更清晰。
+- 优化首页引导词、初始数据本地化和应用品牌文案。
+
+### 修复
+
+- 增加 Windows 剪贴板兜底，提高全局抓取稳定性。
+- 修复 macOS 抓取支持，并补齐 macOS key server 打包路径。
+- 修复 AI 生成标签的语言归属，使标签更符合原始内容语言。
+- 恢复品牌栏区域的窗口拖动行为。
 
 ### Asset
 
