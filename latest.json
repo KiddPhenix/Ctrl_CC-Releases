@@ -2,23 +2,23 @@
   "schema": 1,
   "product": "Ctrl_CC",
   "latest": {
-    "version": "0.1.0",
-    "tag": "v0.1.0",
+    "version": "0.1.1",
+    "tag": "v0.1.1",
     "channel": "stable",
-    "publishedAt": "2026-06-17T00:00:00Z",
+    "publishedAt": "2026-06-18T00:00:00Z",
     "minimumSupportedVersion": "0.1.0",
     "mandatory": false,
-    "releasePage": "https://github.com/KiddPhenix/Ctrl_CC-Releases/releases/tag/v0.1.0",
+    "releasePage": "https://github.com/KiddPhenix/Ctrl_CC-Releases/releases/tag/v0.1.1",
     "notes": {
-      "en": "Initial public binary release.",
-      "zh-CN": "首个公开二进制发布版本。"
+      "en": "Windows x64 binary release.",
+      "zh-CN": "Windows x64 二进制发布版本。"
     },
     "platforms": {
       "windows-x64": {
         "kind": "zip",
-        "file": "Ctrl_CC-0.1.0-windows-x64.zip",
-        "url": "https://github.com/KiddPhenix/Ctrl_CC-Releases/releases/download/v0.1.0/Ctrl_CC-0.1.0-windows-x64.zip",
-        "sha256": "53d92062e6d325445d76560d853bd5d0e52298983750b2a49561b3052f531737"
+        "file": "Ctrl_CC-0.1.1-windows-x64.zip",
+        "url": "https://github.com/KiddPhenix/Ctrl_CC-Releases/releases/download/v0.1.1/Ctrl_CC-0.1.1-windows-x64.zip",
+        "sha256": "293dad67d1961102f77c5f35d3c17a21d6c306d59ba20e52e78cdf621aa0604d"
       }
     }
   }

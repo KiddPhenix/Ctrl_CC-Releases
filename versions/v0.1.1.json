@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "product": "Ctrl_CC",
+  "version": "0.1.1",
+  "tag": "v0.1.1",
+  "channel": "stable",
+  "publishedAt": "2026-06-18T00:00:00Z",
+  "releasePage": "https://github.com/KiddPhenix/Ctrl_CC-Releases/releases/tag/v0.1.1",
+  "notes": {
+    "en": "Windows x64 binary release.",
+    "zh-CN": "Windows x64 二进制发布版本。"
+  },
+  "platforms": {
+    "windows-x64": {
+      "kind": "zip",
+      "file": "Ctrl_CC-0.1.1-windows-x64.zip",
+      "url": "https://github.com/KiddPhenix/Ctrl_CC-Releases/releases/download/v0.1.1/Ctrl_CC-0.1.1-windows-x64.zip",
+      "sha256": "293dad67d1961102f77c5f35d3c17a21d6c306d59ba20e52e78cdf621aa0604d"
+    }
+  }
+}
