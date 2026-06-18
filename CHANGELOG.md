@@ -8,6 +8,7 @@
 
 - Added a guided Local CLI setup flow in Settings, covering command detection, tool selection, command configuration, authorization, skill injection, and final verification.
 - Added desktop analysis verification for Local CLI providers, checking that the configured CLI can return parseable Knowledge/Todo JSON before treating the setup as ready.
+- Added unsigned macOS DMG builds for Apple Silicon and Intel Macs.
 
 #### Improvements
 
@@ -19,12 +20,17 @@
 
 - Reduced the chance of Local CLI setup appearing successful before the provider has passed a real analysis-format check.
 
+#### Signing note
+
+This macOS build is unsigned during the testing period. I have not bought an Apple Developer account yet because the budget is still crying quietly, so macOS may ask you to right-click the app and choose **Open** on first launch.
+
 ### 中文
 
 #### 功能
 
 - Settings 中新增本地 CLI 配置向导，串起命令检测、工具选择、命令配置、授权、写入规则和最终验证。
 - 新增本地 CLI 桌面分析验证，确认配置后的 CLI 能返回可解析的 Knowledge/Todo JSON 后，再视为配置可用。
+- 新增 Apple Silicon 和 Intel Mac 的未签名 macOS DMG 测试包。
 
 #### 调整
 
@@ -36,11 +42,19 @@
 
 - 降低本地 CLI 只完成授权但尚未通过真实分析格式验证时，被误判为已经可用的概率。
 
+#### 签名说明
+
+这个 macOS 版本在测试期暂时未签名。还没有购买 Apple 开发者账户，因为预算目前正在默默哭穷，所以 macOS 首次启动时可能需要右键 App 并选择**打开**。
+
 ### Assets
 
 ```text
 Ctrl_CC-0.1.4-windows-x64.zip
 SHA256: C1D5123C42E71E0274DA3989830A76A2AC5E0A053FF4615D63783CA61CD328AB
+Ctrl_CC-0.1.4-macos-arm64.dmg
+SHA256: 41685314b9d99fa89e04e888dface597f97883f304aecd21013268fa7fb7af74
+Ctrl_CC-0.1.4-macos-x64.dmg
+SHA256: 433702f4aab51865ca0fc8d5446c6b940e20c5e241c2bd80cc71f7ead15d46d8
 ```
 
 ## 0.1.3 - 2026-06-18
