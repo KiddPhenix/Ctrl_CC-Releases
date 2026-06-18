@@ -1,0 +1,39 @@
+{
+  "schema": 1,
+  "product": "Ctrl_CC",
+  "version": "0.1.2",
+  "tag": "v0.1.2",
+  "channel": "stable",
+  "publishedAt": "2026-06-18T00:00:00Z",
+  "releasePage": "https://github.com/KiddPhenix/Ctrl_CC-Releases/releases/tag/v0.1.2",
+  "notes": {
+    "en": "Adds Local CLI LLM Provider support, improves Codex CLI detection and execution stability, and fixes Knowledge delete confirmation menu state.",
+    "zh-CN": "新增本地 CLI LLM Provider，优化 Codex CLI 检测和执行稳定性，并修复 Knowledge 删除确认菜单状态。"
+  },
+  "changelog": {
+    "en": [
+      "Added Local CLI LLM Provider support for local command-line AI tools such as Codex.",
+      "Added Settings flows for adding, linking, and preparing local CLI providers.",
+      "Improved Codex CLI discovery on Windows, including Microsoft Store installs and stable local executable paths.",
+      "Improved Codex execution parameters and local CLI troubleshooting logs.",
+      "Fixed local CLI analysis jobs that could remain stuck in the running state.",
+      "Fixed Knowledge item delete confirmation menu state."
+    ],
+    "zh-CN": [
+      "新增本地 CLI LLM Provider，可接入 Codex 这类本地命令行 AI 工具。",
+      "在 Settings 中增加本地 CLI Provider 的添加、链接和准备流程。",
+      "优化 Windows 上的 Codex CLI 检测，兼容 Microsoft Store 安装路径和稳定可执行文件路径。",
+      "优化 Codex 调用参数和本地 CLI 排查日志。",
+      "修复本地 CLI 分析任务可能一直停留在运行中的问题。",
+      "修复 Knowledge 条目删除确认菜单状态。"
+    ]
+  },
+  "platforms": {
+    "windows-x64": {
+      "kind": "zip",
+      "file": "Ctrl_CC-0.1.2-windows-x64.zip",
+      "url": "https://github.com/KiddPhenix/Ctrl_CC-Releases/releases/download/v0.1.2/Ctrl_CC-0.1.2-windows-x64.zip",
+      "sha256": "59fb0ea129a04c4675ffb648131cbe3c8409cd5d3802ed8246f3c28e1d6ba59c"
+    }
+  }
+}

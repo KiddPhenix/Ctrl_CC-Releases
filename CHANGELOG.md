@@ -1,5 +1,50 @@
 # Changelog
 
+## 0.1.2 - 2026-06-18
+
+### English
+
+#### Features
+
+- Added Local CLI LLM Provider support, allowing Ctrl_CC to use local command-line AI tools such as Codex as an analysis provider.
+- Added Settings flows for adding, linking, and preparing local CLI providers without requiring a remote API key.
+
+#### Improvements
+
+- Improved Codex CLI discovery on Windows, including Microsoft Store installs and stable local executable paths.
+- Improved Codex execution parameters by using verified arguments and recording the actual invocation details for troubleshooting.
+
+#### Fixes
+
+- Fixed local CLI analysis jobs that could remain stuck in the running state.
+- Fixed Codex Store path handling so Ctrl_CC prefers the executable path instead of an unstable package directory.
+- Fixed Knowledge item delete confirmation so the action menu keeps the confirmation state visible and resets cleanly.
+
+### 中文
+
+#### 功能
+
+- 新增本地 CLI LLM Provider，Ctrl_CC 可以把 Codex 这类本地命令行 AI 工具作为分析 Provider 使用。
+- 在 Settings 中增加本地 CLI Provider 的添加、链接和准备流程，不依赖远程 API Key 也能接入本机 AI 工具。
+
+#### 调整
+
+- 优化 Windows 上的 Codex CLI 检测，兼容 Microsoft Store 安装路径和稳定的本地可执行文件路径。
+- 优化 Codex 调用参数，使用已验证的执行参数，并记录实际调用信息，方便排查本地 CLI 问题。
+
+#### 修复
+
+- 修复本地 CLI 分析任务可能一直停留在运行中的问题。
+- 修复 Codex Store 路径处理，优先使用可执行文件路径，避免依赖不稳定的包目录。
+- 修复 Knowledge 条目删除确认菜单状态，确认按钮能保持可见并在关闭菜单后正确重置。
+
+### Assets
+
+```text
+Ctrl_CC-0.1.2-windows-x64.zip
+SHA256: 59fb0ea129a04c4675ffb648131cbe3c8409cd5d3802ed8246f3c28e1d6ba59c
+```
+
 ## 0.1.1 - 2026-06-18
 
 ### English
