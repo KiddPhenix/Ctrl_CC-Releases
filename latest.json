@@ -2,41 +2,41 @@
   "schema": 1,
   "product": "Ctrl_CC",
   "latest": {
-    "version": "0.1.3",
-    "tag": "v0.1.3",
+    "version": "0.1.4",
+    "tag": "v0.1.4",
     "channel": "stable",
     "publishedAt": "2026-06-18T00:00:00Z",
     "minimumSupportedVersion": "0.1.0",
     "mandatory": false,
-    "releasePage": "https://github.com/KiddPhenix/Ctrl_CC-Releases/releases/tag/v0.1.3",
+    "releasePage": "https://github.com/KiddPhenix/Ctrl_CC-Releases/releases/tag/v0.1.4",
     "notes": {
-      "en": "Polishes Memory and navigation UI, fixes Todo editing, and improves local CLI settings and analysis output handling.",
-      "zh-CN": "优化 Memory 与导航界面，修复 Todo 编辑，并改进本地 CLI 设置和分析输出处理。"
+      "en": "Adds a guided Local CLI setup flow with real desktop-analysis verification and clearer writeback language rules.",
+      "zh-CN": "新增本地 CLI 配置向导，加入真实桌面分析验证，并明确写回语言规则。"
     },
     "changelog": {
       "en": [
-        "Polished the Memory and navigation UI for easier scanning and switching between Knowledge, Todo, Vault, and related views.",
-        "Improved local CLI provider settings and runtime state display.",
-        "Improved local CLI analysis prompting so generated Knowledge drafts use a more consistent Markdown solution format.",
-        "Fixed Todo editing flows so task detail changes are saved and reflected more reliably.",
-        "Fixed local CLI provider configuration and status handling edge cases.",
-        "Tightened local CLI result handling to reduce malformed analysis output from breaking the expected response format."
+        "Added a guided Local CLI setup flow in Settings.",
+        "Added desktop analysis verification for Local CLI providers before marking setup as ready.",
+        "Improved setup wording and progress states around authorization, skill injection, and verification.",
+        "Hid the manual test-entry hint from the main setup path.",
+        "Updated the built-in Ctrl_CC skill text so writebacks follow the user's current language.",
+        "Reduced the chance of Local CLI setup appearing successful before a real analysis-format check passes."
       ],
       "zh-CN": [
-        "优化 Memory 和导航界面，Knowledge、Todo、Vault 等视图之间更容易浏览和切换。",
-        "优化本地 CLI Provider 的设置和运行状态展示。",
-        "优化本地 CLI 分析提示词，让生成的 Knowledge 草稿更稳定地使用 Markdown solution 格式。",
-        "修复 Todo 编辑流程，详情页中的任务修改能更可靠地保存并反馈到界面。",
-        "修复本地 CLI Provider 配置和状态处理边界问题。",
-        "收紧本地 CLI 分析结果格式处理，降低异常输出破坏预期响应格式的概率。"
+        "Settings 中新增本地 CLI 配置向导。",
+        "新增本地 CLI 桌面分析验证，通过真实分析格式检查后再视为配置可用。",
+        "优化授权、写入规则和验证流程的文案与进度状态。",
+        "隐藏主流程里的手动测试入口提示。",
+        "更新内置 Ctrl_CC skill 文案，让写回内容跟随用户当前语言。",
+        "降低本地 CLI 未通过真实分析格式验证时被误判为可用的概率。"
       ]
     },
     "platforms": {
       "windows-x64": {
         "kind": "zip",
-        "file": "Ctrl_CC-0.1.3-windows-x64.zip",
-        "url": "https://github.com/KiddPhenix/Ctrl_CC-Releases/releases/download/v0.1.3/Ctrl_CC-0.1.3-windows-x64.zip",
-        "sha256": "AD3B8DE6E9D94BA06E314B46376DA6DEAAAEA8D7EE76EBF7F36A5E9F8C63EAEB"
+        "file": "Ctrl_CC-0.1.4-windows-x64.zip",
+        "url": "https://github.com/KiddPhenix/Ctrl_CC-Releases/releases/download/v0.1.4/Ctrl_CC-0.1.4-windows-x64.zip",
+        "sha256": "C1D5123C42E71E0274DA3989830A76A2AC5E0A053FF4615D63783CA61CD328AB"
       }
     }
   }
