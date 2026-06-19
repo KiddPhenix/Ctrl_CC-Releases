@@ -2,57 +2,51 @@
   "schema": 1,
   "product": "Ctrl_CC",
   "latest": {
-    "version": "0.1.4",
-    "tag": "v0.1.4",
+    "version": "0.1.5",
+    "tag": "v0.1.5",
     "channel": "stable",
-    "publishedAt": "2026-06-18T00:00:00Z",
+    "publishedAt": "2026-06-19T00:00:00Z",
     "minimumSupportedVersion": "0.1.0",
     "mandatory": false,
-    "releasePage": "https://github.com/KiddPhenix/Ctrl_CC-Releases/releases/tag/v0.1.4",
+    "releasePage": "https://github.com/KiddPhenix/Ctrl_CC-Releases/releases/tag/v0.1.5",
     "notes": {
-      "en": "Adds a guided Local CLI setup flow with real desktop-analysis verification, clearer writeback language rules, and unsigned macOS test builds. During testing I have not bought an Apple Developer account yet because the budget is still crying quietly, so macOS may ask you to right-click and choose Open.",
-      "zh-CN": "新增本地 CLI 配置向导，加入真实桌面分析验证，明确写回语言规则，并提供未签名 macOS 测试包。测试期间还没有购买 Apple 开发者账户，因为预算还在默默哭穷，所以 macOS 可能需要右键选择“打开”。"
+      "en": "Adds macOS Local CLI setup support, a cross-platform Electron dev launcher, and a documented Step-by-Step release runbook. macOS builds remain unsigned during testing because the Apple Developer account budget is still crying quietly.",
+      "zh-CN": "新增 macOS 本地 CLI 配置支持、跨平台 Electron dev 启动脚本，并补充 Step by Step 发布手册。macOS 构建在测试期仍为未签名版本，因为 Apple 开发者账户预算还在默默哭穷。"
     },
     "changelog": {
       "en": [
-        "Added a guided Local CLI setup flow in Settings.",
-        "Added desktop analysis verification for Local CLI providers before marking setup as ready.",
-        "Improved setup wording and progress states around authorization, skill injection, and verification.",
-        "Hid the manual test-entry hint from the main setup path.",
-        "Updated the built-in Ctrl_CC skill text so writebacks follow the user's current language.",
-        "Reduced the chance of Local CLI setup appearing successful before a real analysis-format check passes.",
+        "Added macOS as a Local CLI runtime option in Settings.",
+        "Improved macOS Local CLI command discovery, including Codex app resource paths, Homebrew paths, and shell PATH lookup.",
+        "Added native macOS Local CLI verification and version detection before treating the provider as ready.",
+        "Updated Local CLI skill injection so native macOS paths use the same managed agent-file flow as other native runtimes.",
+        "Replaced the dev script with a cross-platform Electron launcher.",
+        "Added a Step-by-Step release runbook and saved it back into Ctrl_CC Knowledge.",
         "Added unsigned macOS DMG builds for Apple Silicon and Intel Macs.",
         "Documented the testing-period signing status: no Apple Developer account yet, budget currently crying quietly."
       ],
       "zh-CN": [
-        "Settings 中新增本地 CLI 配置向导。",
-        "新增本地 CLI 桌面分析验证，通过真实分析格式检查后再视为配置可用。",
-        "优化授权、写入规则和验证流程的文案与进度状态。",
-        "隐藏主流程里的手动测试入口提示。",
-        "更新内置 Ctrl_CC skill 文案，让写回内容跟随用户当前语言。",
-        "降低本地 CLI 未通过真实分析格式验证时被误判为可用的概率。",
+        "Settings 中新增 macOS 作为本地 CLI 运行环境选项。",
+        "优化 macOS 本地 CLI 命令检测，覆盖 Codex App 资源路径、Homebrew 路径和 shell PATH 查找。",
+        "新增 macOS 本地 CLI 验证和版本检测，通过后再视为 Provider 可用。",
+        "更新本地 CLI skill 写入逻辑，让 macOS 原生路径使用和其他原生运行时一致的 agent file 写入流程。",
+        "将 dev 脚本替换为跨平台 Electron 启动器。",
+        "新增 Step by Step 发布手册，并写回 Ctrl_CC Knowledge。",
         "新增 Apple Silicon 和 Intel Mac 的未签名 macOS DMG 测试包。",
         "写明测试期签名状态：暂未购买 Apple 开发者账户，预算目前正在默默哭穷。"
       ]
     },
     "platforms": {
-      "windows-x64": {
-        "kind": "zip",
-        "file": "Ctrl_CC-0.1.4-windows-x64.zip",
-        "url": "https://github.com/KiddPhenix/Ctrl_CC-Releases/releases/download/v0.1.4/Ctrl_CC-0.1.4-windows-x64.zip",
-        "sha256": "C1D5123C42E71E0274DA3989830A76A2AC5E0A053FF4615D63783CA61CD328AB"
-      },
       "macos-arm64": {
         "kind": "dmg",
-        "file": "Ctrl_CC-0.1.4-macos-arm64.dmg",
-        "url": "https://github.com/KiddPhenix/Ctrl_CC-Releases/releases/download/v0.1.4/Ctrl_CC-0.1.4-macos-arm64.dmg",
-        "sha256": "41685314b9d99fa89e04e888dface597f97883f304aecd21013268fa7fb7af74"
+        "file": "Ctrl_CC-0.1.5-macos-arm64.dmg",
+        "url": "https://github.com/KiddPhenix/Ctrl_CC-Releases/releases/download/v0.1.5/Ctrl_CC-0.1.5-macos-arm64.dmg",
+        "sha256": "b04315cb939e9485a78c75c2b00824fc4244a8cfa44e3fb511bd62ef697b4c55"
       },
       "macos-x64": {
         "kind": "dmg",
-        "file": "Ctrl_CC-0.1.4-macos-x64.dmg",
-        "url": "https://github.com/KiddPhenix/Ctrl_CC-Releases/releases/download/v0.1.4/Ctrl_CC-0.1.4-macos-x64.dmg",
-        "sha256": "433702f4aab51865ca0fc8d5446c6b940e20c5e241c2bd80cc71f7ead15d46d8"
+        "file": "Ctrl_CC-0.1.5-macos-x64.dmg",
+        "url": "https://github.com/KiddPhenix/Ctrl_CC-Releases/releases/download/v0.1.5/Ctrl_CC-0.1.5-macos-x64.dmg",
+        "sha256": "d3cb457d32bea9a9edf305592bbce8609a3f62033544de7d3ff59e58e5f7eb6d"
       }
     }
   }
