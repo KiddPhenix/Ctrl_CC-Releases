@@ -2,59 +2,43 @@
   "schema": 1,
   "product": "Ctrl_CC",
   "latest": {
-    "version": "0.1.6",
-    "tag": "v0.1.6",
+    "version": "0.1.7",
+    "tag": "v0.1.7",
     "channel": "stable",
     "publishedAt": "2026-06-22T00:00:00Z",
     "minimumSupportedVersion": "0.1.0",
     "mandatory": false,
-    "releasePage": "https://github.com/KiddPhenix/Ctrl_CC-Releases/releases/tag/v0.1.6",
+    "releasePage": "https://github.com/KiddPhenix/Ctrl_CC-Releases/releases/tag/v0.1.7",
     "notes": {
-      "en": "Adds Agent cards, portraits, history reflection scanning, AI review, and quality-loop records for reusable Agent memory, plus unsigned macOS test builds. During testing I have not bought an Apple Developer account yet because the budget is still crying quietly, so macOS may ask you to right-click and choose Open.",
-      "zh-CN": "新增 Agent 卡片、立绘、历史反思扫描、AI 复核和质量闭环记录，用于沉淀可复用的 Agent 记忆，并提供未签名 macOS 测试包。测试期间还没有购买 Apple 开发者账户，因为预算还在默默哭穷，所以 macOS 可能需要右键选择“打开”。"
+      "en": "Improves Memories history import with smaller AI-summary batches, visible progress, safer retry behavior, and cursor reset controls.",
+      "zh-CN": "优化 Memories 历史导入，加入小批次 AI 总结、可见进度、更安全的重试行为和 cursor 重置控制。"
     },
     "changelog": {
       "en": [
-        "Added Agent cards and portrait-driven Agent browsing.",
-        "Added Agent portrait import surfaces and expanded portrait matching.",
-        "Added Agent history reflection scanning, AI review, and quality-loop records.",
-        "Added background Agent history scanning so long history analysis does not block the main app flow.",
-        "Improved Agent memory import and optimization flows with broader history recall.",
-        "Improved Agent detail and compact-list behavior.",
-        "Tightened Agent history recall, filtered self-pollution, and limited AI review budgets.",
-        "Added unsigned macOS DMG builds for Apple Silicon and Intel Macs.",
-        "Documented the testing-period signing status: no Apple Developer account yet, budget currently crying quietly."
+        "Improved Memories history import with smaller AI-summary batches and visible progress.",
+        "Added a debug setting to reset the Memories history import cursor.",
+        "Added a tag-filter delete action for Memories.",
+        "Strengthened AI summarization rules so imported Memories have concrete subjects, problems, tags, and Markdown solution text.",
+        "Made failed AI summary batches stop without advancing the cursor, keeping retry behavior safe.",
+        "Improved import job logs for scan count, import count, skipped candidates, and retry state.",
+        "Fixed missing prompt text handling for prompt proposals."
       ],
       "zh-CN": [
-        "新增 Agent 卡片和立绘浏览入口。",
-        "新增 Agent 立绘导入界面并扩展立绘候选匹配。",
-        "新增 Agent 历史反思扫描、AI 复核和质量闭环记录。",
-        "新增后台 Agent 历史扫描，长历史分析不再阻塞主界面流程。",
-        "优化 Agent 记忆导入与优化流程，扩大历史召回范围。",
-        "优化 Agent 详情和紧凑列表行为。",
-        "收紧 Agent 历史召回，过滤自污染内容，并限制 AI 复核预算。",
-        "新增 Apple Silicon 和 Intel Mac 的未签名 macOS DMG 测试包。",
-        "写明测试期签名状态：暂未购买 Apple 开发者账户，预算目前正在默默哭穷。"
+        "优化 Memories 历史导入，加入小批次 AI 总结和可见进度。",
+        "新增调试设置，可重置 Memories 历史导入 cursor。",
+        "新增按当前 tag 搜索结果删除 Memories 的入口。",
+        "强化 AI 总结规则，让导入 Memories 具备具体主题、问题、标签和 Markdown solutionText。",
+        "AI 总结批次失败时不推进 cursor，保证重试更安全。",
+        "优化导入任务日志，记录扫描数量、导入数量、跳过候选和可重试状态。",
+        "修复提示词草案缺少正文时的处理。"
       ]
     },
     "platforms": {
       "windows-x64": {
         "kind": "zip",
-        "file": "Ctrl_CC-0.1.6-windows-x64.zip",
-        "url": "https://github.com/KiddPhenix/Ctrl_CC-Releases/releases/download/v0.1.6/Ctrl_CC-0.1.6-windows-x64.zip",
-        "sha256": "4DB4E983C1D4361552B78BEB56DF04A5523B58D2AF8901AD6871DF513D88CDDF"
-      },
-      "macos-arm64": {
-        "kind": "dmg",
-        "file": "Ctrl_CC-0.1.6-macos-arm64.dmg",
-        "url": "https://github.com/KiddPhenix/Ctrl_CC-Releases/releases/download/v0.1.6/Ctrl_CC-0.1.6-macos-arm64.dmg",
-        "sha256": "a1c8e27db2fd1dab3b9b796670ed143640b301b6c0119d9362387ae9c65a482f"
-      },
-      "macos-x64": {
-        "kind": "dmg",
-        "file": "Ctrl_CC-0.1.6-macos-x64.dmg",
-        "url": "https://github.com/KiddPhenix/Ctrl_CC-Releases/releases/download/v0.1.6/Ctrl_CC-0.1.6-macos-x64.dmg",
-        "sha256": "a36e8df79e60b68ccf23907645ec9ba6db380779c04b0159a45d24f5ca460bd8"
+        "file": "Ctrl_CC-0.1.7-windows-x64.zip",
+        "url": "https://github.com/KiddPhenix/Ctrl_CC-Releases/releases/download/v0.1.7/Ctrl_CC-0.1.7-windows-x64.zip",
+        "sha256": "E1B74D2FFE32E3B5B386A0E98CE0B6D9B86368A42EBB273C4C1C7B1043E4C360"
       }
     }
   }
