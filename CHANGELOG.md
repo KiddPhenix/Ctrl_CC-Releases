@@ -10,6 +10,7 @@
 - Added Agent portrait import surfaces and expanded portrait matching so local AI tools and AGENTS.md-style workflows can be represented more clearly.
 - Added Agent history reflection scanning, AI review, and quality-loop records to help turn prior work into reusable Agent memory.
 - Added background Agent history scanning so long history analysis can run without blocking the main app flow.
+- Added unsigned macOS DMG builds for Apple Silicon and Intel Macs.
 
 #### Improvements
 
@@ -23,6 +24,10 @@
 - Filtered self-pollution from Agent history review and limited AI review budgets to keep background analysis more predictable.
 - Fixed Agent detail section switching and compact-list metadata retention.
 
+#### Signing note
+
+This macOS build is unsigned during the testing period. I have not bought an Apple Developer account yet because the budget is still crying quietly, so macOS may ask you to right-click the app and choose **Open** on first launch.
+
 ### 中文
 
 #### 功能
@@ -31,6 +36,7 @@
 - 新增 Agent 立绘导入界面并扩展立绘候选匹配，让本机 AI 工具和 AGENTS.md 工作流能被更清晰地呈现。
 - 新增 Agent 历史反思扫描、AI 复核和质量闭环记录，用于把历史工作沉淀成可复用的 Agent 记忆。
 - 新增后台 Agent 历史扫描，长历史分析不再阻塞主界面流程。
+- 新增 Apple Silicon 和 Intel Mac 的未签名 macOS DMG 测试包。
 
 #### 调整
 
@@ -44,11 +50,19 @@
 - 过滤 Agent 历史复核中的自污染内容，并限制 AI 复核预算，让后台分析更可控。
 - 修复 Agent 详情分区切换和紧凑列表元信息保留问题。
 
+#### 签名说明
+
+这个 macOS 版本在测试期暂时未签名。还没有购买 Apple 开发者账户，因为预算目前正在默默哭穷，所以 macOS 首次启动时可能需要右键 App 并选择**打开**。
+
 ### Assets
 
 ```text
 Ctrl_CC-0.1.6-windows-x64.zip
 SHA256: 4DB4E983C1D4361552B78BEB56DF04A5523B58D2AF8901AD6871DF513D88CDDF
+Ctrl_CC-0.1.6-macos-arm64.dmg
+SHA256: a1c8e27db2fd1dab3b9b796670ed143640b301b6c0119d9362387ae9c65a482f
+Ctrl_CC-0.1.6-macos-x64.dmg
+SHA256: a36e8df79e60b68ccf23907645ec9ba6db380779c04b0159a45d24f5ca460bd8
 ```
 
 ## 0.1.5 - 2026-06-19
