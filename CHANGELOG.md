@@ -21,6 +21,14 @@
 - Reduced low-quality generic titles and provenance-only problem text in imported Memories.
 - Fixed prompt proposal handling so missing prompt text is surfaced instead of silently writing back an empty proposal.
 
+#### macOS testing build
+
+- Added unsigned macOS DMG builds for Apple Silicon and Intel Macs.
+
+#### Signing note
+
+This macOS build is unsigned during the testing period. I have not bought an Apple Developer account yet because the budget is still crying quietly, so macOS may ask you to right-click the app and choose **Open** on first launch.
+
 ### 中文
 
 #### 功能
@@ -40,11 +48,23 @@
 - 减少导入 Memories 中过泛标题和只描述来源、不描述问题的内容。
 - 修复提示词草案缺少正文时的处理，避免静默写回空草案。
 
+#### macOS 测试包
+
+- 新增 Apple Silicon 和 Intel Mac 的未签名 macOS DMG 测试包。
+
+#### 签名说明
+
+这个 macOS 版本在测试期暂时未签名。还没有购买 Apple 开发者账户，因为预算目前正在默默哭穷，所以 macOS 首次启动时可能需要右键 App 并选择**打开**。
+
 ### Assets
 
 ```text
 Ctrl_CC-0.1.7-windows-x64.zip
 SHA256: E1B74D2FFE32E3B5B386A0E98CE0B6D9B86368A42EBB273C4C1C7B1043E4C360
+Ctrl_CC-0.1.7-macos-arm64.dmg
+SHA256: 13ab624d8d00b3fbe5b9b952c547d9b79f8486996f4f3d76ba971acc61138285
+Ctrl_CC-0.1.7-macos-x64.dmg
+SHA256: e2c286233aed17cd267cac8f78ed377a30d4779eef4ba014fc8eae13980ae1f3
 ```
 
 ## 0.1.6 - 2026-06-22

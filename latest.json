@@ -21,7 +21,8 @@
         "Strengthened AI summarization rules so imported Memories have concrete subjects, problems, tags, and Markdown solution text.",
         "Made failed AI summary batches stop without advancing the cursor, keeping retry behavior safe.",
         "Improved import job logs for scan count, import count, skipped candidates, and retry state.",
-        "Fixed missing prompt text handling for prompt proposals."
+        "Fixed missing prompt text handling for prompt proposals.",
+        "Added unsigned macOS DMG builds for Apple Silicon and Intel Macs."
       ],
       "zh-CN": [
         "优化 Memories 历史导入，加入小批次 AI 总结和可见进度。",
@@ -30,7 +31,8 @@
         "强化 AI 总结规则，让导入 Memories 具备具体主题、问题、标签和 Markdown solutionText。",
         "AI 总结批次失败时不推进 cursor，保证重试更安全。",
         "优化导入任务日志，记录扫描数量、导入数量、跳过候选和可重试状态。",
-        "修复提示词草案缺少正文时的处理。"
+        "修复提示词草案缺少正文时的处理。",
+        "新增 Apple Silicon 和 Intel Mac 的未签名 macOS DMG 测试包。"
       ]
     },
     "platforms": {
@@ -39,6 +41,18 @@
         "file": "Ctrl_CC-0.1.7-windows-x64.zip",
         "url": "https://github.com/KiddPhenix/Ctrl_CC-Releases/releases/download/v0.1.7/Ctrl_CC-0.1.7-windows-x64.zip",
         "sha256": "E1B74D2FFE32E3B5B386A0E98CE0B6D9B86368A42EBB273C4C1C7B1043E4C360"
+      },
+      "macos-arm64": {
+        "kind": "dmg",
+        "file": "Ctrl_CC-0.1.7-macos-arm64.dmg",
+        "url": "https://github.com/KiddPhenix/Ctrl_CC-Releases/releases/download/v0.1.7/Ctrl_CC-0.1.7-macos-arm64.dmg",
+        "sha256": "13ab624d8d00b3fbe5b9b952c547d9b79f8486996f4f3d76ba971acc61138285"
+      },
+      "macos-x64": {
+        "kind": "dmg",
+        "file": "Ctrl_CC-0.1.7-macos-x64.dmg",
+        "url": "https://github.com/KiddPhenix/Ctrl_CC-Releases/releases/download/v0.1.7/Ctrl_CC-0.1.7-macos-x64.dmg",
+        "sha256": "e2c286233aed17cd267cac8f78ed377a30d4779eef4ba014fc8eae13980ae1f3"
       }
     }
   }
