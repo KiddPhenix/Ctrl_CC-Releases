@@ -1,0 +1,41 @@
+{
+  "schema": 1,
+  "product": "Ctrl_CC",
+  "version": "0.1.8",
+  "tag": "v0.1.8",
+  "channel": "stable",
+  "publishedAt": "2026-06-23T00:00:00Z",
+  "releasePage": "https://github.com/KiddPhenix/Ctrl_CC-Releases/releases/tag/v0.1.8",
+  "notes": {
+    "en": "Adds Windows automatic update installation, Agent portrait generation through Codex CLI, and improved macOS history scan paths.",
+    "zh-CN": "新增 Windows 自动更新安装、通过 Codex CLI 生成 Agent 立绘，并优化 macOS 历史扫描路径。"
+  },
+  "changelog": {
+    "en": [
+      "Added Windows automatic update installation from public release metadata.",
+      "Downloaded Windows updates are SHA256-verified, extracted, backed up, applied, and followed by an automatic restart.",
+      "Added Agent portrait generation through Codex CLI.",
+      "Added Codex CLI discovery, execution logs, usage records, and generated image file handling for portraits.",
+      "Updated update and portrait UI copy for Windows install and Codex CLI requirements.",
+      "Improved macOS history scanning path support.",
+      "Improved failure reporting for update validation and portrait generation."
+    ],
+    "zh-CN": [
+      "新增基于公开发布元数据的 Windows 自动更新安装。",
+      "Windows 更新包会经过 SHA256 校验、解压、备份、应用更新并自动重启。",
+      "新增通过 Codex CLI 生成 Agent 立绘。",
+      "为立绘生成增加 Codex CLI 检测、执行日志、用量记录和图片落盘处理。",
+      "更新更新入口和立绘生成文案，说明 Windows 安装和 Codex CLI 依赖。",
+      "优化 macOS 历史扫描路径支持。",
+      "优化更新校验和立绘生成失败原因展示。"
+    ]
+  },
+  "platforms": {
+    "windows-x64": {
+      "kind": "zip",
+      "file": "Ctrl_CC-0.1.8-windows-x64.zip",
+      "url": "https://github.com/KiddPhenix/Ctrl_CC-Releases/releases/download/v0.1.8/Ctrl_CC-0.1.8-windows-x64.zip",
+      "sha256": "393C15BF760FDE5ABF8379402459F9627E5C97FE609ACB4B2DD0416B6A3010E5"
+    }
+  }
+}

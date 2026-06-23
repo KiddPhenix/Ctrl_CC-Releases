@@ -1,5 +1,50 @@
 # Changelog
 
+## 0.1.8 - 2026-06-23
+
+### English
+
+#### Features
+
+- Added Windows automatic update installation from the public release metadata: Ctrl_CC downloads the Windows zip, verifies SHA256, prepares a backup, applies the update, and restarts automatically.
+- Added Agent portrait generation through Codex CLI, including Codex CLI discovery, execution logs, usage records, and generated image file handling.
+
+#### Improvements
+
+- Updated the in-app update entry so Windows users can download and install directly, while other platforms still open the release download page.
+- Updated Agent portrait errors and copy to guide users toward connecting Codex CLI instead of configuring an OpenAI API key.
+- Improved macOS history scanning path support so local history discovery works with more macOS layouts.
+
+#### Fixes
+
+- Added stricter validation for Windows update metadata, asset URL, zip contents, and SHA256 digest before applying an update.
+- Improved Agent portrait failure reporting for missing Codex CLI, CLI launch failure, CLI exit failure, timeout, and empty image output.
+
+### 中文
+
+#### 功能
+
+- 新增 Windows 自动更新安装：Ctrl_CC 会从公开发布元数据下载 Windows zip，校验 SHA256，准备备份，应用更新并自动重启。
+- 新增通过 Codex CLI 生成 Agent 立绘，包含 Codex CLI 检测、执行日志、用量记录和生成图片落盘处理。
+
+#### 调整
+
+- 更新应用内更新入口，Windows 用户可直接下载并安装，其他平台继续打开 Release 下载页。
+- 更新 Agent 立绘生成错误提示和文案，引导用户连接 Codex CLI，而不是配置 OpenAI API Key。
+- 优化 macOS 历史扫描路径支持，让本机历史发现兼容更多 macOS 路径布局。
+
+#### 修复
+
+- 增加 Windows 自动更新前的元数据、下载 URL、zip 内容和 SHA256 校验。
+- 优化 Agent 立绘失败原因展示，覆盖缺少 Codex CLI、CLI 启动失败、CLI 退出失败、超时和未找到图片输出。
+
+### Assets
+
+```text
+Ctrl_CC-0.1.8-windows-x64.zip
+SHA256: 393C15BF760FDE5ABF8379402459F9627E5C97FE609ACB4B2DD0416B6A3010E5
+```
+
 ## 0.1.7 - 2026-06-22
 
 ### English
