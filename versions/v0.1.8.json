@@ -18,7 +18,8 @@
       "Added Codex CLI discovery, execution logs, usage records, and generated image file handling for portraits.",
       "Updated update and portrait UI copy for Windows install and Codex CLI requirements.",
       "Improved macOS history scanning path support.",
-      "Improved failure reporting for update validation and portrait generation."
+      "Improved failure reporting for update validation and portrait generation.",
+      "Added unsigned macOS DMG builds for Apple Silicon and Intel Macs."
     ],
     "zh-CN": [
       "新增基于公开发布元数据的 Windows 自动更新安装。",
@@ -27,7 +28,8 @@
       "为立绘生成增加 Codex CLI 检测、执行日志、用量记录和图片落盘处理。",
       "更新更新入口和立绘生成文案，说明 Windows 安装和 Codex CLI 依赖。",
       "优化 macOS 历史扫描路径支持。",
-      "优化更新校验和立绘生成失败原因展示。"
+      "优化更新校验和立绘生成失败原因展示。",
+      "新增 Apple Silicon 和 Intel Mac 的未签名 macOS DMG 测试包。"
     ]
   },
   "platforms": {
@@ -36,6 +38,18 @@
       "file": "Ctrl_CC-0.1.8-windows-x64.zip",
       "url": "https://github.com/KiddPhenix/Ctrl_CC-Releases/releases/download/v0.1.8/Ctrl_CC-0.1.8-windows-x64.zip",
       "sha256": "393C15BF760FDE5ABF8379402459F9627E5C97FE609ACB4B2DD0416B6A3010E5"
+    },
+    "macos-arm64": {
+      "kind": "dmg",
+      "file": "Ctrl_CC-0.1.8-macos-arm64.dmg",
+      "url": "https://github.com/KiddPhenix/Ctrl_CC-Releases/releases/download/v0.1.8/Ctrl_CC-0.1.8-macos-arm64.dmg",
+      "sha256": "d9c17c0dc52b6b22f234811c34d56181c65c69504f463007a8e6bb6228428bc5"
+    },
+    "macos-x64": {
+      "kind": "dmg",
+      "file": "Ctrl_CC-0.1.8-macos-x64.dmg",
+      "url": "https://github.com/KiddPhenix/Ctrl_CC-Releases/releases/download/v0.1.8/Ctrl_CC-0.1.8-macos-x64.dmg",
+      "sha256": "d8712392fb15579bb1a9ecf14f7c0c53cc778749948190d2f341bebe10079fc5"
     }
   }
 }
