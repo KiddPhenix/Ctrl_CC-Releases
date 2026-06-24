@@ -2,57 +2,41 @@
   "schema": 1,
   "product": "Ctrl_CC",
   "latest": {
-    "version": "0.1.8",
-    "tag": "v0.1.8",
+    "version": "0.1.9",
+    "tag": "v0.1.9",
     "channel": "stable",
-    "publishedAt": "2026-06-23T00:00:00Z",
+    "publishedAt": "2026-06-24T00:00:00Z",
     "minimumSupportedVersion": "0.1.0",
     "mandatory": false,
-    "releasePage": "https://github.com/KiddPhenix/Ctrl_CC-Releases/releases/tag/v0.1.8",
+    "releasePage": "https://github.com/KiddPhenix/Ctrl_CC-Releases/releases/tag/v0.1.9",
     "notes": {
-      "en": "Adds Windows automatic update installation, Agent portrait generation through Codex CLI, and improved macOS history scan paths.",
-      "zh-CN": "新增 Windows 自动更新安装、通过 Codex CLI 生成 Agent 立绘，并优化 macOS 历史扫描路径。"
+      "en": "Adds exact Memories reference copying with ccc:<id>, exact CLI lookup for those references, and clearer Agent import entry points.",
+      "zh-CN": "新增 ccc:<id> Memories 精确引用复制、CLI 精确读取支持，并优化 Agent 导入入口。"
     },
     "changelog": {
       "en": [
-        "Added Windows automatic update installation from public release metadata.",
-        "Downloaded Windows updates are SHA256-verified, extracted, backed up, applied, and followed by an automatic restart.",
-        "Added Agent portrait generation through Codex CLI.",
-        "Added Codex CLI discovery, execution logs, usage records, and generated image file handling for portraits.",
-        "Updated update and portrait UI copy for Windows install and Codex CLI requirements.",
-        "Improved macOS history scanning path support.",
-        "Improved failure reporting for update validation and portrait generation.",
-        "Added unsigned macOS DMG builds for Apple Silicon and Intel Macs."
+        "Added exact Memories reference copying with ccc:<id>.",
+        "Added exact Knowledge lookup support for ccc:<id> in the Ctrl_CC CLI and local AI instructions.",
+        "Made Agent import visible from the empty Agent state and roster header.",
+        "Improved empty search states for Memories, Todo, Agents, and Vault.",
+        "Renamed the Agent import entry to a clearer Import Agent action.",
+        "Fixed the Agent import action being hidden when no Agent cards existed yet."
       ],
       "zh-CN": [
-        "新增基于公开发布元数据的 Windows 自动更新安装。",
-        "Windows 更新包会经过 SHA256 校验、解压、备份、应用更新并自动重启。",
-        "新增通过 Codex CLI 生成 Agent 立绘。",
-        "为立绘生成增加 Codex CLI 检测、执行日志、用量记录和图片落盘处理。",
-        "更新更新入口和立绘生成文案，说明 Windows 安装和 Codex CLI 依赖。",
-        "优化 macOS 历史扫描路径支持。",
-        "优化更新校验和立绘生成失败原因展示。",
-        "新增 Apple Silicon 和 Intel Mac 的未签名 macOS DMG 测试包。"
+        "新增 ccc:<id> Memories 精确引用复制。",
+        "Ctrl_CC CLI 和本地 AI 指令新增 ccc:<id> 精确 Knowledge 读取支持。",
+        "Agent 空状态和阵容标题处都展示导入入口。",
+        "优化 Memories、Todo、Agents 和 Vault 的搜索空状态。",
+        "将 Agent 导入入口文案调整为更直接的“导入 Agent”。",
+        "修复没有 Agent 卡片时导入入口不明显的问题。"
       ]
     },
     "platforms": {
       "windows-x64": {
         "kind": "zip",
-        "file": "Ctrl_CC-0.1.8-windows-x64.zip",
-        "url": "https://github.com/KiddPhenix/Ctrl_CC-Releases/releases/download/v0.1.8/Ctrl_CC-0.1.8-windows-x64.zip",
-        "sha256": "393C15BF760FDE5ABF8379402459F9627E5C97FE609ACB4B2DD0416B6A3010E5"
-      },
-      "macos-arm64": {
-        "kind": "dmg",
-        "file": "Ctrl_CC-0.1.8-macos-arm64.dmg",
-        "url": "https://github.com/KiddPhenix/Ctrl_CC-Releases/releases/download/v0.1.8/Ctrl_CC-0.1.8-macos-arm64.dmg",
-        "sha256": "d9c17c0dc52b6b22f234811c34d56181c65c69504f463007a8e6bb6228428bc5"
-      },
-      "macos-x64": {
-        "kind": "dmg",
-        "file": "Ctrl_CC-0.1.8-macos-x64.dmg",
-        "url": "https://github.com/KiddPhenix/Ctrl_CC-Releases/releases/download/v0.1.8/Ctrl_CC-0.1.8-macos-x64.dmg",
-        "sha256": "d8712392fb15579bb1a9ecf14f7c0c53cc778749948190d2f341bebe10079fc5"
+        "file": "Ctrl_CC-0.1.9-windows-x64.zip",
+        "url": "https://github.com/KiddPhenix/Ctrl_CC-Releases/releases/download/v0.1.9/Ctrl_CC-0.1.9-windows-x64.zip",
+        "sha256": "B22E2BABE2EAC001C406679B72784EBD3FE813454227EA4202CC01A2CA51B098"
       }
     }
   }
