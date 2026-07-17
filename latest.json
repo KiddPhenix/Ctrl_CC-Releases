@@ -2,39 +2,43 @@
   "schema": 1,
   "product": "Ctrl_CC",
   "latest": {
-    "version": "0.1.10",
-    "tag": "v0.1.10",
+    "version": "0.1.11",
+    "tag": "v0.1.11",
     "channel": "stable",
-    "publishedAt": "2026-06-24T00:00:00Z",
+    "publishedAt": "2026-07-17T00:00:00Z",
     "minimumSupportedVersion": "0.1.0",
     "mandatory": false,
-    "releasePage": "https://github.com/KiddPhenix/Ctrl_CC-Releases/releases/tag/v0.1.10",
+    "releasePage": "https://github.com/KiddPhenix/Ctrl_CC-Releases/releases/tag/v0.1.11",
     "notes": {
-      "en": "Adds the Maze workspace for structured dual-Agent debate, including setup, transcript review, verdicts, and follow-up actions.",
-      "zh-CN": "新增 Maze 双 Agent 结构化辩论工作区，支持会话配置、过程查看、裁决结论和后续动作。"
+      "en": "Adds the AI Tasks workflow for staged Agent work, including leases, review handoff, CLI/MCP access, and a compact workspace UI.",
+      "zh-CN": "新增 AI Tasks 工作流，支持阶段化 Agent 任务、租约、验收交接、CLI/MCP 调用和紧凑工作区界面。"
     },
     "changelog": {
       "en": [
-        "Added the Maze workspace for dual-Agent debate.",
-        "Added Maze session setup with topic, stance, round count, and per-Agent role selection.",
-        "Added debate result handling for generated rounds, verdicts, and follow-up actions.",
-        "Added localized Maze navigation, empty states, action labels, and workspace copy.",
-        "Added dedicated Maze layout and styling for setup, transcript review, and result panels."
+        "Added AI Tasks as a dedicated workspace separate from regular Todo.",
+        "Added ordered feature stages with active-stage parallelism and locked later stages.",
+        "Added Agent-safe claim, lease renewal, release, review submit, reject, and accept flows.",
+        "Added CLI and MCP interfaces for features, stages, tasks, claimable tasks, and review handoff.",
+        "Added a compact AI Tasks UI with feature/stage navigation, task rows, detail panels, and event history.",
+        "Added an Agent guide for discovery, lease, retry, and submit workflows.",
+        "Added idempotent request-id handling and explicit failure states."
       ],
       "zh-CN": [
-        "新增 Maze 双 Agent 辩论工作区。",
-        "新增 Maze 会话配置，支持辩题、立场、回合数和双方 Agent 角色。",
-        "新增辩论结果处理，支持查看多轮发言、裁决结论和后续动作。",
-        "补充 Maze 多语言导航、空状态、操作文案和工作区说明。",
-        "新增 Maze 专属布局和样式，用于辩论设置、过程记录和结果面板。"
+        "新增独立于普通 Todo 的 AI Tasks 工作区。",
+        "新增有序阶段，支持当前阶段并行执行和后续阶段锁定。",
+        "新增 Agent 安全领取、续租、释放、提交验收、驳回和通过流程。",
+        "新增 CLI 与 MCP 接口，覆盖大功能、阶段、任务、可领取任务和验收交接。",
+        "新增紧凑 AI Tasks 界面，包含功能/阶段导航、任务行、详情面板和事件记录。",
+        "新增 Agent 调用说明，覆盖发现、租约、重试和提交验收流程。",
+        "补齐 request-id 幂等处理和显式失败状态。"
       ]
     },
     "platforms": {
       "windows-x64": {
         "kind": "zip",
-        "file": "Ctrl_CC-0.1.10-windows-x64.zip",
-        "url": "https://github.com/KiddPhenix/Ctrl_CC-Releases/releases/download/v0.1.10/Ctrl_CC-0.1.10-windows-x64.zip",
-        "sha256": "A08CB2B9A546091774D12E60B68F1A518A3B706ED09D4EE9EE1D39CA53F012E4"
+        "file": "Ctrl_CC-0.1.11-windows-x64.zip",
+        "url": "https://github.com/KiddPhenix/Ctrl_CC-Releases/releases/download/v0.1.11/Ctrl_CC-0.1.11-windows-x64.zip",
+        "sha256": "0DF47CDE7721BDD2665B2034673DBB87D36840D660EEDC684D6B5AD9883BE3CA"
       }
     }
   }

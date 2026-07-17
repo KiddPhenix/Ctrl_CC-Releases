@@ -1,5 +1,52 @@
 # Changelog
 
+## 0.1.11 - 2026-07-17
+
+### English
+
+#### Features
+
+- Added AI Tasks as a dedicated workspace separate from regular Todo, so larger features can be split into executable Agent tasks.
+- Added ordered feature stages: tasks in the active stage can run in parallel, while later stages stay locked until previous tasks are accepted.
+- Added Agent-safe task lifecycle support with claim, lease renewal, release, submit for review, reject, and accept with merge references.
+- Added CLI and MCP interfaces for task features, stages, task listing, claimable tasks, and review handoff.
+
+#### Improvements
+
+- Added a compact AI Tasks UI with feature/stage navigation, scan-friendly task rows, detail panels, event history, and localized copy.
+- Added an Agent guide that explains the recommended task discovery, lease, retry, and submit workflow.
+- Added idempotent request-id handling and explicit failure states for task ownership, locked stages, invalid transitions, and missing merge references.
+
+#### Fixes
+
+- No separate bugfix-only changes in this release.
+
+### 中文
+
+#### 功能
+
+- 新增独立于普通 Todo 的 AI Tasks 工作区，可把大功能拆成 Agent 可执行任务。
+- 新增有序阶段：当前 active 阶段内任务可并行，后续阶段会等前序任务验收合并后再解锁。
+- 新增 Agent 安全任务生命周期，支持领取、续租、释放、提交验收、驳回和带合并引用的通过。
+- 新增 CLI 与 MCP 接口，覆盖大功能、阶段、任务列表、可领取任务和验收交接。
+
+#### 调整
+
+- 新增紧凑 AI Tasks 界面，包含功能/阶段导航、可扫描任务行、详情面板、事件记录和多语言文案。
+- 新增 Agent 调用说明，明确任务发现、租约、重试和提交验收流程。
+- 补齐 request-id 幂等处理，并显式暴露任务归属冲突、阶段锁定、非法状态流转和缺少合并引用等失败。
+
+#### 修复
+
+- 本版本没有单独的 bugfix-only 改动。
+
+### Assets
+
+```text
+Ctrl_CC-0.1.11-windows-x64.zip
+SHA256: 0DF47CDE7721BDD2665B2034673DBB87D36840D660EEDC684D6B5AD9883BE3CA
+```
+
 ## 0.1.10 - 2026-06-24
 
 ### English
