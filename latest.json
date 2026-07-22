@@ -2,41 +2,39 @@
   "schema": 1,
   "product": "Ctrl_CC",
   "latest": {
-    "version": "0.1.12",
-    "tag": "v0.1.12",
+    "version": "0.1.13",
+    "tag": "v0.1.13",
     "channel": "stable",
-    "publishedAt": "2026-07-21T00:00:00Z",
+    "publishedAt": "2026-07-22T00:00:00Z",
     "minimumSupportedVersion": "0.1.0",
     "mandatory": false,
-    "releasePage": "https://github.com/KiddPhenix/Ctrl_CC-Releases/releases/tag/v0.1.12",
+    "releasePage": "https://github.com/KiddPhenix/Ctrl_CC-Releases/releases/tag/v0.1.13",
     "notes": {
-      "en": "Refines AI Tasks with feature edit/delete, source document paths, copyable implementation instructions, improved layout, and a Maze experiment switch.",
-      "zh-CN": "完善 AI Tasks：新增大功能编辑/删除、原始设计文档路径、实施指令复制、布局修复，并加入 Maze 实验开关。"
+      "en": "Refines AI Tasks with collapsible feature details that stay expanded before work starts and collapse by default after tasks begin.",
+      "zh-CN": "优化 AI Tasks 大功能信息栏：未开始任务时默认展开，任务开始后默认折叠，并支持按大功能记住人工选择。"
     },
     "changelog": {
       "en": [
-        "Added AI Task feature editing and deletion with cascade cleanup.",
-        "Added source document paths and copyable implementation instructions for AI Task features.",
-        "Added CLI and MCP support for sourceDocPath, update_task_feature, and delete_task_feature.",
-        "Added a Maze experiment switch in Settings.",
-        "Split exported Ctrl_CC guidance into default memory and on-demand AI Task workflows.",
-        "Improved AI Tasks layout and restored shared modal behavior for task forms."
+        "Added collapsible AI Task feature details.",
+        "Tracked expand/collapse state per feature during the current page session.",
+        "Defaulted feature details to expanded before work starts and collapsed after tasks begin.",
+        "Added localized expand and collapse labels.",
+        "Reduced AI Tasks left-pane crowding after feature work starts."
       ],
       "zh-CN": [
-        "新增 AI Tasks 大功能编辑和删除，并级联清理关联任务与事件。",
-        "新增大功能原始设计文档路径和可复制实施指令。",
-        "新增 CLI 与 MCP 对 sourceDocPath、update_task_feature、delete_task_feature 的支持。",
-        "新增 Settings 里的 Maze 实验开关。",
-        "将导出的 Ctrl_CC 指引拆成默认记忆工作流和按需 AI Task 工作流。",
-        "优化 AI Tasks 布局，并恢复任务表单的统一弹窗行为。"
+        "AI Tasks 大功能信息栏新增折叠和展开。",
+        "当前页面会话内按大功能独立记住展开状态。",
+        "未开始任务时默认展开，任务开始后默认折叠。",
+        "补齐折叠/展开多语言文案。",
+        "减少大功能开始执行后左侧信息栏占用空间。"
       ]
     },
     "platforms": {
       "windows-x64": {
         "kind": "zip",
-        "file": "Ctrl_CC-0.1.12-windows-x64.zip",
-        "url": "https://github.com/KiddPhenix/Ctrl_CC-Releases/releases/download/v0.1.12/Ctrl_CC-0.1.12-windows-x64.zip",
-        "sha256": "0AFDA486C39756D856410C4B555E11047D67577156115ED2DB6E5CE33181FEB3"
+        "file": "Ctrl_CC-0.1.13-windows-x64.zip",
+        "url": "https://github.com/KiddPhenix/Ctrl_CC-Releases/releases/download/v0.1.13/Ctrl_CC-0.1.13-windows-x64.zip",
+        "sha256": "06391B2014E03854DFAE356BF91C8E3DD50C2FA9FC69B86F05D4C7ADA512739B"
       }
     }
   }

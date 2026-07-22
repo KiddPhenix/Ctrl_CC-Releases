@@ -1,5 +1,46 @@
 # Changelog
 
+## 0.1.13 - 2026-07-22
+
+### English
+
+#### Features
+
+- No new standalone feature in this release.
+
+#### Improvements
+
+- Added collapsible AI Task feature details, with expand/collapse state tracked per feature during the current page session.
+- Feature details now default to expanded before any task starts, then default to collapsed once a task enters doing, review, or merged.
+- Added localized labels for expanding and collapsing feature details.
+
+#### Fixes
+
+- Reduced AI Tasks left-pane crowding after work has started on a feature.
+
+### 中文
+
+#### 功能
+
+- 本版本没有独立新功能。
+
+#### 调整
+
+- AI Tasks 大功能信息栏新增折叠/展开，并在当前页面会话内按大功能独立记住人工选择。
+- 大功能尚未开始任何任务时默认展开；一旦存在 doing、review 或 merged 任务，默认折叠，减少左侧空间占用。
+- 补齐大功能信息栏折叠/展开的多语言文案。
+
+#### 修复
+
+- 缓解 AI Tasks 大功能开始执行后左侧信息栏占用过多空间的问题。
+
+### Assets
+
+```text
+Ctrl_CC-0.1.13-windows-x64.zip
+SHA256: 06391B2014E03854DFAE356BF91C8E3DD50C2FA9FC69B86F05D4C7ADA512739B
+```
+
 ## 0.1.12 - 2026-07-21
 
 ### English

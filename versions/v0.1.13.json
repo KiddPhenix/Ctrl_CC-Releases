@@ -1,0 +1,37 @@
+{
+  "schema": 1,
+  "product": "Ctrl_CC",
+  "version": "0.1.13",
+  "tag": "v0.1.13",
+  "channel": "stable",
+  "publishedAt": "2026-07-22T00:00:00Z",
+  "releasePage": "https://github.com/KiddPhenix/Ctrl_CC-Releases/releases/tag/v0.1.13",
+  "notes": {
+    "en": "Refines AI Tasks with collapsible feature details that stay expanded before work starts and collapse by default after tasks begin.",
+    "zh-CN": "优化 AI Tasks 大功能信息栏：未开始任务时默认展开，任务开始后默认折叠，并支持按大功能记住人工选择。"
+  },
+  "changelog": {
+    "en": [
+      "Added collapsible AI Task feature details.",
+      "Tracked expand/collapse state per feature during the current page session.",
+      "Defaulted feature details to expanded before work starts and collapsed after tasks begin.",
+      "Added localized expand and collapse labels.",
+      "Reduced AI Tasks left-pane crowding after feature work starts."
+    ],
+    "zh-CN": [
+      "AI Tasks 大功能信息栏新增折叠和展开。",
+      "当前页面会话内按大功能独立记住展开状态。",
+      "未开始任务时默认展开，任务开始后默认折叠。",
+      "补齐折叠/展开多语言文案。",
+      "减少大功能开始执行后左侧信息栏占用空间。"
+    ]
+  },
+  "platforms": {
+    "windows-x64": {
+      "kind": "zip",
+      "file": "Ctrl_CC-0.1.13-windows-x64.zip",
+      "url": "https://github.com/KiddPhenix/Ctrl_CC-Releases/releases/download/v0.1.13/Ctrl_CC-0.1.13-windows-x64.zip",
+      "sha256": "06391B2014E03854DFAE356BF91C8E3DD50C2FA9FC69B86F05D4C7ADA512739B"
+    }
+  }
+}
